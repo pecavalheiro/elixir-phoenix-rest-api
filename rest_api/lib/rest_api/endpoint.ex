@@ -33,7 +33,7 @@ defmodule RestApi.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_rest_api_key",
-    signing_salt: "1YCVNx7u"
+    signing_salt: "bE/wQc8V"
 
   plug RestApi.Router
 end
