@@ -10,17 +10,10 @@ config :rest_api, RestApi.Endpoint,
 config :logger, level: :warn
 
 # Configure your database
-# config :rest_api, RestApi.Repo,
-#   adapter: Ecto.Adapters.Postgres,
-#   username: "postgres",
-#   password: "postgres",
-#   database: "rest_api_test",
-#   hostname: "postgres",
-#   pool: Ecto.Adapters.SQL.Sandbox
-
 config :rest_api, RestApi.Repo,
-  adapter: Mongo.Ecto,
-  # username: "root",
-  # password: "root",
+  adapter: Ecto.Adapters.Postgres,
+  username: "postgres",
+  password: "postgres",
   database: "rest_api_test",
-  hostname: "mongo"
+  hostname: "localhost",
+  pool: Ecto.Adapters.SQL.Sandbox

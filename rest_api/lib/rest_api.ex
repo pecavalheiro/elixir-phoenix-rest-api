@@ -10,7 +10,7 @@ defmodule RestApi do
       # Start the endpoint when the application starts
       supervisor(RestApi.Endpoint, []),
       # Start the Ecto repository
-      supervisor(RestApi.Repo, []),
+      worker(RestApi.Repo, []),
       # Here you could define other workers and supervisors as children
       # worker(RestApi.Worker, [arg1, arg2, arg3]),
     ]

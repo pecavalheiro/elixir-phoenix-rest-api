@@ -13,8 +13,8 @@ use Mix.Config
 # which you typically run after static files are built.
 config :rest_api, RestApi.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [host: "localhost", port: 80]#,
-  #cache_static_manifest: "priv/static/manifest.json"
+  url: [host: "example.com", port: 80],
+  cache_static_manifest: "priv/static/manifest.json"
 
 # Do not print debug messages in production
 config :logger, level: :info
@@ -55,10 +55,6 @@ config :logger, level: :info
 #
 #     config :rest_api, RestApi.Endpoint, server: true
 #
-# You will also need to set the application root to `.` in order
-# for the new static assets to be served after a hot upgrade:
-#
-#     config :rest_api, RestApi.Endpoint, root: "."
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.

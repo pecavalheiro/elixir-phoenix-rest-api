@@ -9,7 +9,7 @@ use Mix.Config
 config :rest_api, RestApi.Endpoint,
   url: [host: "localhost"],
   root: Path.dirname(__DIR__),
-  secret_key_base: "GUw/nKVXfkRI4pQo1sHF06dbun8VmpSioDPM+6R10bMYJYiPEghN8ZDbwf6ra+x6",
+  secret_key_base: "3bqKcCYcsBkWxK0vLMsBawJ384mZRWw7GUcEkv4VJWl+asOlP16v1MobcTZKkbVS",
   render_errors: [accepts: ~w(html json)],
   pubsub: [name: RestApi.PubSub,
            adapter: Phoenix.PubSub.PG2]

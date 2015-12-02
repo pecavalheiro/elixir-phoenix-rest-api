@@ -25,7 +25,7 @@ defmodule RestApi.ModelCase do
 
   setup tags do
     unless tags[:async] do
-      # Ecto.Adapters.SQL.restart_test_transaction(RestApi.Repo, [])
+      Ecto.Adapters.SQL.restart_test_transaction(RestApi.Repo, [])
     end
 
     :ok
