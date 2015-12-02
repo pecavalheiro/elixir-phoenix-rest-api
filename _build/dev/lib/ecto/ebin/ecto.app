@@ -3,7 +3,7 @@
               {description,"Ecto is a domain specific language for writing queries and interacting with databases in Elixir.\n"},
               {applications,[kernel,stdlib,elixir,logger,decimal,poolboy]},
               {env,[{json_library,'Elixir.Poison'}]},
-              {vsn,"1.0.6"},
+              {vsn,"1.0.7"},
               {modules,['Elixir.Ecto','Elixir.Ecto.Adapter',
                         'Elixir.Ecto.Adapter.Migration',
                         'Elixir.Ecto.Adapter.Storage',

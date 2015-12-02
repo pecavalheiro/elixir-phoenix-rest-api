@@ -15,5 +15,5 @@ config :rest_api, RestApi.Repo,
   username: "postgres",
   password: "postgres",
   database: "rest_api_test",
-  hostname: "localhost",
+  hostname: "postgres",
   pool: Ecto.Adapters.SQL.Sandbox

@@ -38,5 +38,5 @@ config :rest_api, RestApi.Repo,
   username: "postgres",
   password: "postgres",
   database: "rest_api_dev",
-  hostname: "localhost",
+  hostname: "postgres",
   pool_size: 10

@@ -1,9 +1,0 @@
-v1.
-{<<"/var/www/rest_api/_build/dev/lib/connection/ebin/Elixir.Connection.beam">>,
- 'Elixir.Connection',<<"lib/connection.ex">>,
- ['Elixir.List','Elixir.GenServer','Elixir.Kernel.Typespec','Elixir.Keyword',
-  'Elixir.Kernel','Elixir.Module','Elixir.Behaviour','Elixir.ArgumentError',
-  'Elixir.Kernel.Def',erlang],
- ['Elixir.System',error_logger,proc_lib,'Elixir.Process',code,global,gen,
-  gen_server,'Elixir.Code'],
- [],nil}.

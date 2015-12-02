@@ -12,5 +12,5 @@ config :rest_api, RestApi.Repo,
   # username: "root",
   # password: "root",
   database: "rest_api_prod",
-  hostname: "mongo",
+  hostname: "postgres",
   pool_size: 20
